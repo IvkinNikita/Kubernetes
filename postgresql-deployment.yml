@@ -34,6 +34,6 @@ spec:
               subPath: postgres
       volumes:
         - name: postgres-data
-          PersistentVolumeClaim:
+          persistentVolumeClaim:
             claimName: postgres-pvc
           
