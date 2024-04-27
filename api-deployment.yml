@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: short-api
-          image: antonlarichev/short-api
+          image: antonlarichev/short-api:v1.0
           ports: 
             - containerPort: 3000
           resources:
@@ -24,8 +24,8 @@ spec:
               cpu: "200m"
           env:
             - name: DATABASE_URL
-              value: postgresql://demo:demo@postgres-clusterip:5432/demo
-#              valueFrom:
-#                secretKeyRef:
-#                  key: DATABASE_URL
-#                  name: short-api-secret
+#              value: postgresql://demo:demo@postgres-clusterip:5432/demo
+              valueFrom:
+                secretKeyRef:
+                  key: DATABASE_URL
+                  name: short-api-secret
