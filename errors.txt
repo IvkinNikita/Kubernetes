@@ -1,0 +1,11 @@
+$kubectl logs pod/short-api-deployment-95d8574bc-kxw6r
+
+> short-api@0.0.1 start
+> nest start
+
+Killed
+npm notice 
+npm notice New major version of npm available! 9.8.1 -> 10.6.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.6.0>
+npm notice Run `npm install -g npm@10.6.0` to update!
+npm notice 
