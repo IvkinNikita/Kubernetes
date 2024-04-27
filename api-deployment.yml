@@ -26,5 +26,5 @@ spec:
             - name: DATABASE_URL
               valueFrom:
                 secretKeyRef:
-                  key: DATABASE_URL
-                  name: short-api-secret
+                  name: DATABASE_URL
+                  key: short-api-secret
