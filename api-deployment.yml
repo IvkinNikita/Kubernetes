@@ -22,3 +22,9 @@ spec:
             limits:
               memory: "128Mi"
               cpu: "100m"
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  key: DATABASE_URL
+                  name: short-api-secret
