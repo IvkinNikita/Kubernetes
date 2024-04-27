@@ -14,7 +14,7 @@ spec:
           path: "/"
           backend:
             service:
-              name: short-app-port
+              name: short-app-clusterip
               port:
                 number: 80
         - pathType: Prefix
