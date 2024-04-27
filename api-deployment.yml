@@ -24,7 +24,7 @@ spec:
               cpu: "200m"
           env:
             - name: DATABASE_URL
-              key: postgresql://demo:demo@postgres-clusterip:5432/demo
+              value: postgresql://demo:demo@postgres-clusterip:5432/demo
 #              valueFrom:
 #                secretKeyRef:
 #                  key: DATABASE_URL
