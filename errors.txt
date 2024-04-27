@@ -9,3 +9,9 @@ npm notice New major version of npm available! 9.8.1 -> 10.6.0
 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.6.0>
 npm notice Run `npm install -g npm@10.6.0` to update!
 npm notice 
+
+[Nest] 43  - 04/27/2024, 11:51:19 AM   ERROR [ExceptionsHandler] Cannot read properties of null (reading 'url')
+TypeError: Cannot read properties of null (reading 'url')
+    at AppController.redirect (/opt/app/src/app.controller.ts:29:23)
+    at /opt/app/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /opt/app/node_modules/@nestjs/core/router/router-proxy.js:9:17
